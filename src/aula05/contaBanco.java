@@ -1,6 +1,6 @@
 package aula05;
 
-public class contaBanco {
+public class ContaBanco {
 
     public int numConta;
     protected String tipo;
@@ -8,7 +8,7 @@ public class contaBanco {
     private double saldo;
     private boolean status;
 
-    public contaBanco() {
+    public ContaBanco() {
         this.setSaldo(0);
         this.setStatus(false);
     }
