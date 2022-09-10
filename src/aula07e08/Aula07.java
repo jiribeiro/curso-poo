@@ -1,4 +1,4 @@
-package aula07;
+package aula07e08;
 
 public class Aula07 {
     public static void main(String[] args) {
