@@ -12,15 +12,15 @@ public class Lutador {
     private int derrotas;
     private int empates;
 
-    public Lutador(String no, String na, int id, double al, double pe, int vi, int de, int em) {
-        this.nome = no;
-        this.nacionalidade = na;
-        this.idade = id;
-        this.altura = al;
-        this.setPeso(pe);
-        this.vitorias = vi;
-        this.derrotas = de;
-        this.empates = em;
+    public Lutador(String no, String na, int id, double d, double e, int vi, int de, int em) {
+        this.setNome(no);
+        this.setNacionalidade(na);
+        this.setIdade(de);
+        this.setAltura(d);
+        this.setPeso(e);
+        this.setVitorias(vi);
+        this.setDerrotas(de);
+        this.setEmpates(em);
     }
 
     public void setNome(String nome) {
@@ -47,15 +47,15 @@ public class Lutador {
         return idade;
     }
 
-    public void setAltura(float altura) {
-        this.altura = altura;
+    public void setAltura(double d) {
+        this.altura = d;
     }
 
     public double getAltura() {
         return altura;
     }
-    public void setPeso(double peso) {
-        this.peso = peso;
+    public void setPeso(double e) {
+        this.peso = e;
         this.setCategoria();
     }
 
